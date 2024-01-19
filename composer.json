@@ -1,0 +1,39 @@
+{
+    "name": "anythingllm/php-sdk",
+    "description": "PHP SDK for Anything LLM",
+    "keywords": [
+        "anythingllm",
+        "anything llm",
+        "swagger",
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://github.com/Mintplex-Labs/anything-llm",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Herz3h",
+            "homepage": "https://github.com/Herz3h"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.3",
+        "guzzlehttp/psr7": "^1.7 || ^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0 || ^9.0",
+        "friendsofphp/php-cs-fixer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": { "Swagger\\Client\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Swagger\\Client\\" : "test/" }
+    }
+}
